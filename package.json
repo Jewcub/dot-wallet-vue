@@ -1,0 +1,25 @@
+{
+  "name": "dot-wallet-vue",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve src/loginbutton.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/compiler-sfc": "^3.0.0-rc.5",
+    "bili": "^5.0.5",
+    "rollup-plugin-vue": "^6.0.0-beta.10",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
